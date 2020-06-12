@@ -1,0 +1,43 @@
+.header-brand{
+    color: #5FC3E4;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       
+}
+.navbar-toggler { 
+    border-color: yellow; 
+} 
+
+  
+.navbar-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+
+
+.header .menu .nav-item .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.1rem;
+    color: black;
+    font-size: small;
+}
+
+.header .menu .navbar-nav .active a{
+    background: #4cb8c4; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4cb8c4, #3cd3ad); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4cb8c4, #3cd3ad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header .menu .navbar-nav .nav-item .nav-link:hover {
+    background: #4cb8c4; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4cb8c4, #3cd3ad); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4cb8c4, #3cd3ad) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
