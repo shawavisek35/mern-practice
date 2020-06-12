@@ -21,6 +21,14 @@ mongoose.connect(uri , {
     useUnifiedTopology: true
 });
 
+//Endpoint
+
+const user = require("./routes/user");
+const exercise = require("./routes/exercise");
+
+app.use("/users" , user);
+app.use("/exercise" , exercise);
+
 const connection = mongoose.connection;
 connection.once('open' , ()=> {
     console.log("Mongodb Atlas successfully connected .");
