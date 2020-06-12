@@ -9,7 +9,7 @@ class Navbar extends Component{
                 <header className="header">
                     <div className="menu">
                         <nav class="navbar navbar-expand-lg navbar-light ">
-                            <a class="navbar-brand" href="/home"><h3 className="header-brand">Event Forms</h3></a>
+                            <a class="navbar-brand" href="/home"><h3 className="header-brand">Exercise Tracker</h3></a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon">
                                     <i class="fa fa-bars" style={{color:"#fff", fontSize:"35px"}}></i>
